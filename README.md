@@ -1,16 +1,49 @@
-# React + Vite
+# Student Task Manager 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi **Single Page Application (SPA)** sederhana untuk manajemen tugas kuliah. Proyek ini dikembangkan sebagai pemenuhan tugas **Ujian Akhir Semester (UAS) Mata Kuliah Pemrograman Front-End**.
 
-Currently, two official plugins are available:
+Aplikasi ini memungkinkan pengguna untuk membuat, membaca, memperbarui, dan menghapus tugas (CRUD), serta menyimpan data secara lokal agar tidak hilang saat halaman dimuat ulang.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👤 Identitas Mahasiswa
+* **Nama:** Abiyyu Haidar
+* **NIM:** 1002240055
+* **Program Studi:** Teknologi Informasi
 
-## React Compiler
+## 🚀 Fitur Utama
+Sesuai dengan kriteria soal UAS, aplikasi ini memiliki fitur:
+* ✅ **CRUD Operation:** Mampu menambah (Create), membaca (Read), mengubah status (Update), dan menghapus (Delete) tugas.
+* ✅ **Integrasi API:** Mengambil data awal (dummy data) dari Public API (*JSONPlaceholder*) menggunakan `fetch`.
+* ✅ **Persistensi Data:** Menggunakan **LocalStorage** sehingga data tugas tetap tersimpan meskipun browser di-refresh.
+* ✅ **Responsive Design:** Tampilan antarmuka (UI) yang rapi dan adaptif di perangkat Desktop maupun Mobile menggunakan **Tailwind CSS**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Teknologi yang Digunakan
+* **Framework:** [React.js](https://react.dev/) (Vite)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Language:** JavaScript (ES6+)
+* **Tools:** Visual Studio Code, Git
 
-## Expanding the ESLint configuration
+## 📦 Cara Instalasi & Menjalankan (Local)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Jika ingin menjalankan proyek ini di komputer lokal, ikuti langkah berikut:
+
+1.  **Clone repositori ini** (atau download ZIP):
+    ```bash
+    git clone [https://github.com/](https://github.com/)[USERNAME-GITHUB-KAMU]/[NAMA-REPO-KAMU].git
+    ```
+
+2.  **Masuk ke folder proyek:**
+    ```bash
+    cd [NAMA-FOLDER-PROYEK]
+    ```
+
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+4.  **Jalankan server lokal:**
+    ```bash
+    npm run dev
+    ```
+
+5.  Buka browser dan akses alamat yang muncul di terminal (biasanya `http://localhost:5173`).
